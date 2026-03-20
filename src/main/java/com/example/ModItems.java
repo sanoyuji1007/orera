@@ -35,11 +35,10 @@ public class ModItems {
         //　ログに出力して、Modが正しく初期化されたことを確認する
         TemplateMod.LOGGER.info("MODアイテムの登録 " + TemplateMod.MOD_ID);
 
-        // クリエイティブタブに追加（FOOD_AND_DRINKが「食べ物を飲み物」のタブ)
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK)
+        // クリエイティブタブに追加（COMBATが「戦闘」のタブ)
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT)
                 .register(entries -> {
                     entries.add(BLACK_SWORD); // BLACK_SWORDを追加します
                 });
     }
-
 }
