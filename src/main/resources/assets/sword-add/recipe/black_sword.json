@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"O": {
+			"item": "minecraft:obsidian"
+		},
+		"#": {
+			"item": "minecraft:stick"
+		}
+	},
+	"pattern": [
+		"O",
+		"O",
+		"#"
+	],
+	"result": {
+		"count": 1,
+		"id": "sword-add:black_sword"
+	}
+}
