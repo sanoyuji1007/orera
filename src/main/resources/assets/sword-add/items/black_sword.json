@@ -1,0 +1,6 @@
+{
+	"model": {
+		"type" : "minecraft:model",
+		"model": "sword-add:item/black_sword"
+	}
+}
