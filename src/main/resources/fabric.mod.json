@@ -1,6 +1,6 @@
 {
 	"schemaVersion": 1,
-	"id": "sorwd-add",
+	"id": "sword-add",
 	"version": "${version}",
 	"name": "剣追加Mod",
 	"description": "剣の追加Modです。SAOの剣を追加してみるか...",
@@ -13,7 +13,7 @@
 		"sources": "https://github.com/sanoyuji1007/orera"
 	},
 	"license": "MIT",
-	"icon": "assets/template-mod/icon.png",
+	"icon": "assets/sword-add/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
