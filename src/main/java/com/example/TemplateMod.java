@@ -5,7 +5,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class TemplateMod implements ModInitializer {
-	public static final String MOD_ID = "sword-add";
+	public static final String MOD_ID = "swordadd";
 
 	// ログを出力し、MODが動いてるか確認する
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);

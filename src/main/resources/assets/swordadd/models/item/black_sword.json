@@ -1,6 +1,6 @@
 {
 	"parent": "item/generated",
 	"textures": {
-		"layer0": "sword-add:item/black_sword"
+		"layer0": "swordadd:item/black_sword"
 	}
 }
