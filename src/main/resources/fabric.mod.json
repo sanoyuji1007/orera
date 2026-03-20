@@ -1,17 +1,18 @@
 {
 	"schemaVersion": 1,
-	"id": "template-mod",
+	"id": "sorwd-add",
 	"version": "${version}",
-	"name": "Template Mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "剣追加Mod",
+	"description": "剣の追加Modです。SAOの剣を追加してみるか...",
 	"authors": [
-		"Me!"
+		"sanoyuji",
+		"asanomal"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://x.com/tsuna_nekota?s=20",
+		"sources": "https://github.com/sanoyuji1007/orera"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/template-mod/icon.png",
 	"environment": "*",
 	"entrypoints": {
