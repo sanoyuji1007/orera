@@ -2,6 +2,11 @@ package com.example.swordadd.item;
 
 import com.example.swordadd.TemplateMod;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.minecraft.block.AbstractBlock;
+import net.minecraft.block.Block;
+import net.minecraft.block.ExperienceDroppingBlock;
+import net.minecraft.block.MapColor;
+import net.minecraft.block.enums.NoteBlockInstrument;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
 import net.minecraft.item.ToolMaterial;
@@ -13,6 +18,7 @@ import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.tag.BlockTags;
 import net.minecraft.registry.tag.ItemTags;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.math.intprovider.UniformIntProvider;
 
 import java.util.function.Function;
 
@@ -38,6 +44,8 @@ public class ModItems {
             ItemTags.NETHERITE_TOOL_MATERIALS
     );
 
+
+
     // 黒い剣を追加
     public static final Item BLACK_SWORD = register(
             "black_sword",
@@ -60,6 +68,7 @@ public class ModItems {
             Item::new, // 第2引数：itemFactory (Itemクラスのコンストラクタを渡す)
             new Item.Settings()
     );
+
 
     // Item オブジェクトを返す register メソッド
     public static Item register(String name, Function<Item.Settings, Item> itemFactory, Item.Settings settings) {
