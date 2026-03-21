@@ -27,6 +27,15 @@ public class ModItems {
             ItemTags.NETHERITE_TOOL_MATERIALS
     );
 
+    //青い剣の素材の性能
+    public static final ToolMaterial BLUE_SWORD_MATERIAL = new ToolMaterial(
+            BlockTags.INCORRECT_FOR_NETHERITE_TOOL,
+            2500,
+            9.0F,
+            8.0F,
+            30,
+            ItemTags.NETHERITE_TOOL_MATERIALS
+    );
 
     // 黒い剣を追加
     public static final Item BLACK_SWORD = register(
@@ -34,6 +43,14 @@ public class ModItems {
             Item::new, // 第2引数：itemFactory (Itemクラスのコンストラクタを渡す)
             new Item.Settings()
                     .sword(BLACK_SWORD_MATERIAL, 6.0F, -2.4F)
+    );
+
+    // 青い剣を追加
+    public static final Item BLUE_SWORD = register(
+            "blue_sword",
+            Item::new, // 第2引数：itemFactory (Itemクラスのコンストラクタを渡す)
+            new Item.Settings()
+                    .sword(BLUE_SWORD_MATERIAL, 6.0F, -2.4F)
     );
 
     // Item オブジェクトを返す register メソッド
@@ -59,6 +76,7 @@ public class ModItems {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT)
                 .register(entries -> {
                     entries.add(BLACK_SWORD); // BLACK_SWORDを追加します
+                    entries.add(BLUE_SWORD); // BLUE_SWORDを追加します
                 });
     }
 }

@@ -3,8 +3,8 @@
 	"format_version": "1.21.6",
 	"credit": "Made with Blockbench",
 	"textures": {
-		"particle": "swordadd:item/black_sword",
-		"0": "swordadd:item/black_sword"
+		"particle": "swordadd:item/blue_sword",
+		"0": "swordadd:item/blue_sword"
 	},
 	"elements": [
 		{

@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"O": "minecraft:lapis_lazuli",
+		"#": "minecraft:stick"
+	},
+	"pattern": [
+		"O",
+		"O",
+		"#"
+	],
+	"result": {
+		"id": "swordadd:blue_sword",
+		"count": 1
+	}
+}
