@@ -1,0 +1,6 @@
+{
+	"model": {
+		"type" : "minecraft:model",
+		"model": "swordadd:item/crystallite_ingot"
+	}
+}

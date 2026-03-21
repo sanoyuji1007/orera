@@ -5,6 +5,7 @@ import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
 import net.minecraft.item.ToolMaterial;
+import net.minecraft.item.equipment.trim.ArmorTrimMaterials;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.registry.RegistryKey;
@@ -53,6 +54,13 @@ public class ModItems {
                     .sword(BLUE_SWORD_MATERIAL, 6.0F, -2.4F)
     );
 
+    // クリスタライト・インゴット追加
+    public static final Item CRYSTALLITE_INGOT = register(
+            "crystallite_ingot",
+            Item::new, // 第2引数：itemFactory (Itemクラスのコンストラクタを渡す)
+            new Item.Settings()
+    );
+
     // Item オブジェクトを返す register メソッド
     public static Item register(String name, Function<Item.Settings, Item> itemFactory, Item.Settings settings) {
 
@@ -77,6 +85,7 @@ public class ModItems {
                 .register(entries -> {
                     entries.add(BLACK_SWORD); // BLACK_SWORDを追加します
                     entries.add(BLUE_SWORD); // BLUE_SWORDを追加します
+                    entries.add(CRYSTALLITE_INGOT); // CRYSTALLITE_INGOTを追加します
                 });
     }
 }

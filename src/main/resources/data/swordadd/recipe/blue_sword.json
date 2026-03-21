@@ -2,7 +2,7 @@
 	"type": "minecraft:crafting_shaped",
 	"category": "equipment",
 	"key": {
-		"O": "minecraft:lapis_lazuli",
+		"O": "swordadd:crystallite_ingot",
 		"#": "minecraft:stick"
 	},
 	"pattern": [
