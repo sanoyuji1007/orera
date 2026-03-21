@@ -17,10 +17,10 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.example.TemplateMod"
+			"com.example.swordadd.TemplateMod"
 		],
 		"fabric-datagen": [
-			"com.example.TemplateModDataGenerator"
+			"com.example.swordadd.TemplateModDataGenerator"
 		]
 	},
 	"depends": {
