@@ -18,7 +18,7 @@ public class ModItems {
     public static final Item HEAL_CRYSTAL = register(
             "heal_crystal",
             CrystalliteItem::new,
-            new Item.Settings().maxCount(64)
+            new Item.Settings().maxCount(16)
     );
 
     // 共通の登録メソッド
