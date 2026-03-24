@@ -4,6 +4,7 @@ import com.example.swordadd.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import registry.ModCreativeTab;
 
 public class TemplateMod implements ModInitializer {
 	public static final String MOD_ID = "swordadd";
@@ -14,5 +15,6 @@ public class TemplateMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.initialize(); // ← これを呼ぶことで、ModItemsクラスをロード
+		ModCreativeTab.initialize();
 	}
 }

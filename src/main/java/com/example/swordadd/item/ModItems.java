@@ -19,6 +19,12 @@ public class ModItems {
             "heal_crystal",
             CrystalliteItem::new,
             new Item.Settings().maxCount(16)
+            );
+    //クリスタライトインゴット
+    public static final Item CRYSTALLITE_INGOT = register(
+            "crystallite_ingot",
+            Item::new,
+            new Item.Settings().maxCount(64)
     );
 
     // 共通の登録メソッド
